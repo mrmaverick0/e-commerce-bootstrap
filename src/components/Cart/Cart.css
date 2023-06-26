@@ -1,0 +1,27 @@
+.cart{
+    position: fixed;
+    right: 3%;
+}
+
+.headings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+.total-price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.total{
+   margin-right: 5%;
+   font-weight: 600;
+}
+.btn{
+    margin-left: 25%;
+}
+.cart-items{
+    display: flex;
+    justify-content: space-around;
+}

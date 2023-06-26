@@ -1,0 +1,41 @@
+.home-img{
+    width: 80px;
+}
+.home-headings{
+    text-align: center;
+    background: gray;
+    height: 40vh;
+    margin:-6%;
+    padding-top: 5%;
+    
+}
+.site-home{
+    margin-top: 0%;
+}
+.tours {
+    list-style-type: none;
+    background-color: white;
+    margin: 10%;
+    padding-left: 12%;
+    display: block;
+}
+hr{
+    color: black;
+    width: 50%;
+    margin-right: 50%;
+}
+.footer{
+    background: darkturquoise;
+    margin-bottom: 0%;
+    height: 20vh;
+    padding-left: 10%;
+    color: white;
+}
+.home-heading{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    border: 1px solid rgb(50, 189, 192);
+    color: white;
+   
+}

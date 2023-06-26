@@ -1,0 +1,19 @@
+.heading{
+    font-size: 100px;
+    text-align: center;
+    background-color: gray;
+}
+.about-img{
+   width:150px;
+   border-radius: 50%;
+}
+#container{
+    width:100%;
+    background: yellow;
+}
+#floated{
+    float: left;
+    
+    width: 100px;
+   
+}

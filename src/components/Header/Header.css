@@ -1,0 +1,21 @@
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    background: #111111;
+    padding: 0% 25%;
+}
+h2{
+    color: white;
+}
+.heading{
+    margin-top: 0%;
+    color: white;
+}
+.links a{
+    text-decoration: none;
+}
+.a h2{
+   color:blueviolet;
+   margin-left: 2%;
+   margin-right: 2%;
+}
