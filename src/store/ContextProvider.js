@@ -22,7 +22,7 @@ const CartProvider = (props) =>{
         let emailid=localStorage.getItem('email')
         emailid=emailid.replace('.','');
         emailid=emailid.replace('@','');
-        fetch(`https://crudcrud.com/api/271a1bf0bd6844fe94aac40cf74281fa/${emailid}`)
+        fetch(`https://crudcrud.com/api/d2833bff7cfb4109b5e50cb50a1b8995/${emailid}`)
         .then((res)=>res.json())
         .then((data)=>{
             console.log(data);
@@ -41,19 +41,19 @@ const CartProvider = (props) =>{
     }
     
     const cartHandler = (obj) =>{
-        // let email=localStorage.getItem('email');
-        // email=email.replace('.','')
-        // email=email.replace('@','')
-        // fetch(`https://crudcrud.com/api/271a1bf0bd6844fe94aac40cf74281fa/${email}`,
-        // {
-        //     method:'POST',
-        //     body:JSON.stringify(obj),
-        //     headers: {
-        //         'Content-Type' : 'application/json'
-        //     }
-        // })
-        // .then((res)=>{console.log(res)})
-        // .catch((err)=>{console.log(err)})
+        let email=localStorage.getItem('email');
+        email=email.replace('.','')
+        email=email.replace('@','')
+        fetch(`https://crudcrud.com/api/271a1bf0bd6844fe94aac40cf74281fa/${email}`,
+        {
+            method:'POST',
+            body:JSON.stringify(obj),
+            headers: {
+                'Content-Type' : 'application/json'
+            }
+        })
+        .then((res)=>{console.log(res)})
+        .catch((err)=>{console.log(err)})
     }
 
     const cartContext = {
